@@ -1,0 +1,56 @@
+<view class="page">
+  <view class='info'>
+    <view class='info_left'>
+      <view class='info-avater'>
+        <image class="info_photo" src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565287009501&di=72929053eb7dc439872096370e79297b&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D4094515638%2C4231758982%26fm%3D214%26gp%3D0.jpg'></image>
+      </view>
+      <view class="info_des">
+        <view class='info_name'>一条骺心的咸鱼</view>
+        <view class='info_icons'>
+          <view class="info_icon">优</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="new_books_view">
+    <view class="new_books_title">
+      <view class="title">最近更新</view>
+    </view>
+    <view class="new_books">
+      <view class="book_info">
+        <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
+        <view class="book_name">史记</view>
+      </view>
+
+            <view class="book_info">
+        <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
+        <view class="book_name">史记</view>
+      </view>
+
+            <view class="book_info">
+        <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
+        <view class="book_name">史记史记史记史记史记史记</view>
+      </view>
+
+
+            <view class="book_info">
+        <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
+        <view class="book_name">史记</view>
+      </view>
+
+
+            <view class="book_info">
+        <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
+        <view class="book_name">史记</view>
+      </view>
+
+                 <view class="book_info">
+        <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
+        <view class="book_name">史记</view>
+      </view>
+    </view>
+  </view>
+  <view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__text">Copyright © 2019-2030 fish.com</view>
+  </view>
+</view>
