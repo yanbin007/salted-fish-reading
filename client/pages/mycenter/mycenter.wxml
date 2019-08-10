@@ -22,34 +22,50 @@
         <view class="book_name">史记</view>
       </view>
 
-            <view class="book_info">
+      <view class="book_info">
         <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
         <view class="book_name">史记</view>
       </view>
 
-            <view class="book_info">
+      <view class="book_info">
         <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
         <view class="book_name">史记史记史记史记史记史记</view>
       </view>
 
 
-            <view class="book_info">
+      <view class="book_info">
         <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
         <view class="book_name">史记</view>
       </view>
 
 
-            <view class="book_info">
-        <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
-        <view class="book_name">史记</view>
-      </view>
-
-                 <view class="book_info">
+      <view class="book_info">
         <image class="book_img" src="https://gss0.baidu.com/7LsWdDW5_xN3otqbppnN2DJv/doc/pic/item/bba1cd11728b4710ca1b9ab1c1cec3fdfc032392.jpg"></image>
         <view class="book_name">史记</view>
       </view>
     </view>
   </view>
+
+  <view class="weui-cells weui-cells_show">
+    <block>
+      <navigator url="/pages/index/index" class="weui-cell weui-cell_access">
+        <view class="weui-cell__bd">关于</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </block>
+  </view>
+    <view class="weui-cells weui-cells_show">
+    <block>
+      <navigator url="{{page}}/{{page}}" class="weui-cell weui-cell_access">
+        <view class="weui-cell__bd">帮助</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </block>
+  </view>
+  <view class="weui-footer weui-footer_fixed-bottom">
+  <tabbar></tabbar>
+  </view>
+
   <view class="weui-footer weui-footer_fixed-bottom">
     <view class="weui-footer__text">Copyright © 2019-2030 fish.com</view>
   </view>

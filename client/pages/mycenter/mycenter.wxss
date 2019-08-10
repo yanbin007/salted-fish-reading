@@ -59,7 +59,7 @@ background-color: rgb(226, 159, 50);
 }
 .new_books{
 background-color: white;
-overflow:scroll;
+overflow:hidden; 
 height: 230rpx;
 margin-left: 7rpx;
 }

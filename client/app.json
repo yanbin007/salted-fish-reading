@@ -2,7 +2,8 @@
   "pages": [
     "pages/mycenter/mycenter",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/tabbar/tabbar"
   ],
   "window": {
     "backgroundTextStyle": "light",
