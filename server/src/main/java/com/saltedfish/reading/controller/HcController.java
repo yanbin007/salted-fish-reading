@@ -1,7 +1,7 @@
 package com.saltedfish.reading.controller;
 
-import com.saltedfish.reading.common.GenericResponse;
-import com.saltedfish.reading.framework.annotation.TokenValidate;
+import com.saltedfish.reading.service.LoginService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,9 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HcController {
-    @TokenValidate
+    @Autowired
+    private LoginService loginService;
+
     @GetMapping("/hc")
     public String hc() {
+        loginService.login("cccc");
+
         return "OK";
     }
 }
