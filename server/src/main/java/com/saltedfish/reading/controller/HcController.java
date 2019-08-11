@@ -15,8 +15,6 @@ public class HcController {
 
     @GetMapping("/hc")
     public String hc() {
-        loginService.login("cccc");
-
         return "OK";
     }
 }

@@ -1,4 +1,4 @@
-package com.saltedfish.reading.model;
+package com.saltedfish.reading.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

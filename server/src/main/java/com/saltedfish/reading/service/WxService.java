@@ -1,6 +1,6 @@
 package com.saltedfish.reading.service;
 
-import com.saltedfish.reading.model.WxLoginResult;
+import com.saltedfish.reading.model.dto.WxLoginResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -20,13 +20,7 @@ public class WxService {
     @Autowired
     private RestTemplate restTemplate;
 
-    public String login(String code) {
-        WxLoginResult result = restTemplate.getForObject("https://api.weixin.qq.com/sns/jscode2session?appid={appId}&secret={secert}&js_code={code}&grant_type=authorization_code", WxLoginResult.class, appId, secret, code);
-
-        if (result != null) {
-            return result.getOpenId();
-        }
-
-        return null;
+    public WxLoginResult login(String code) {
+        return restTemplate.getForObject("https://api.weixin.qq.com/sns/jscode2session?appid={appId}&secret={secert}&js_code={code}&grant_type=authorization_code", WxLoginResult.class, appId, secret, code);
     }
 }
